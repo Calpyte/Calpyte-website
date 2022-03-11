@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+.p-font {
+  font-size: 20px !important;
+}
+.about-custom{
+    margin-left:-180px;
+}
+.section-custom{
+    margin-top:2%;
+}
+.service-custom {
+  margin-right: -180px;
+  margin-left: 40px;
+}
+.data-custom {
+  color: #383838;
+  float: left;
+  font-size: 50px;
+  padding-right: 20px;
+  position: relative;
+}
+
+  .data-custom::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+.navbar-custom {
+  background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0 !important;
+  display: none;
+}
+@media only screen and (min-width: 1025px) {
+  .value-card-custom {
+    margin-top:10%;
+  }
+}
+
+.custom-header{
+    font-display:block;
+    font-size:26px;
+    color:black;
+    padding:5px;
+    margin:20px;
+    border-bottom:3px solid black;
+}
+.mt-1{
+    margin-top:1%;
+}
+.mb-1{
+    margin-bottom:1%;
+}
+.widget-title{
+    font-size:26px;
+}
